@@ -1,4 +1,4 @@
-# fayebohlen187.github.io
+# Bohlen Design Portfolio
 
 <!DOCTYPE html>
 <html lang="en">
