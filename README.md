@@ -1,6 +1,5 @@
 # Bohlen Design Portfolio
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,8 +18,9 @@
     <main class="content">
       <!-- Main page content goes here -->      
       <h1>Main Works</h1>
-            <img src="Images/Bohlen.Riki_NFLPoster2.png" width="175" height="225"> <img src="Images/Bohlen.Riki_NFLPoster2.png" width="175" height="225">
-            <img src="Images/Bohlen.Riki_NFLPoster2.png" width="175" height="225">
+            <img src="Images/Bohlen.Riki_NFLPoster2.png" width="175" height="225"> <img src="Images/Bohlen.Riki_NFLPoster2.png" width="175" height="225"> <img src="Images/Bohlen.Riki_NFLPoster2.png" width="175" height="225">
+            
+            
     </main>
   </div>
 </body>
