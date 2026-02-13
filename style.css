@@ -31,6 +31,12 @@ body {
   background-color: #ddd;
 }
 
+/* Active link (ALL screen sizes) */
+.sidebar a.active {
+  background-color: #ccc;
+  font-weight: bold;
+}
+
 /* ===== Content Area ===== */
 .content {
   flex: 1;
@@ -40,6 +46,13 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 24px;
+}
+
+/* ===== FIX: Title spans full row ===== */
+.content h1 {
+  grid-column: 1 / -1;
+  margin-bottom: 10px;
+  font-size: 2.2rem;
 }
 
 /* ===== Image Wrapper ===== */
@@ -69,16 +82,11 @@ body {
   box-shadow: 0 14px 40px rgba(0, 0, 0, 0.3);
 }
 
-/* ===== Responsive Sidebar (Optional) ===== */
+/* ===== Responsive Sidebar ===== */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
   }
-
-  .sidebar a.active {
-  background-color: #ccc;
-  font-weight: bold;
-}
 
   .sidebar {
     width: 100%;
@@ -136,6 +144,3 @@ body {
     opacity: 1;
   }
 }
-
-
-
