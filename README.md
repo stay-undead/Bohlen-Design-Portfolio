@@ -19,8 +19,8 @@
     <main class="content">
       <!-- Main page content goes here -->      
       <h1>Main Works</h1>
-            <img src="Images/Bohlen.Riki_NFLPoster2.png" width="" height="576"> <img src="Images/Bohlen.Riki_NFLPoster2.png" width="448" height="576">
-            <img src="Images/Bohlen.Riki_NFLPoster2.png" width="448" height="576">
+            <img src="Images/Bohlen.Riki_NFLPoster2.png" width="175" height="225"> <img src="Images/Bohlen.Riki_NFLPoster2.png" width="175" height="225">
+            <img src="Images/Bohlen.Riki_NFLPoster2.png" width="175" height="225">
     </main>
   </div>
 </body>
