@@ -9,7 +9,8 @@
 </head>
 <body>
     <!-- Your visible content goes here -->
-    <h1>Hello, World!</h1>
+    Hello, World!
     <p>This is my first paragraph.</p>
+    <img src="docs/Bohlen.Riki_NFLPoster2.png" width="auto" height="auto">
 </body>
 </html>
