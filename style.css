@@ -42,17 +42,18 @@ body {
   flex: 1;
   padding: 30px;
 
-  /* Image grid */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  row-gap: 8px;     /* space between title and images */
-  column-gap: 24px; /* space between images */
+  row-gap: 4px;
+  column-gap: 24px;
 }
+
 
 /* ===== FIX: Title spans full row ===== */
 .content h1 {
   grid-column: 1 / -1;
-  margin-bottom: 1px;/* remove top margin, keep small bottom gap */
+  margin: 0;              /* remove ALL default spacing */
+  padding-bottom: 6px;    /* controlled, intentional spacing */
 }
 
 /* ===== Image Wrapper ===== */
